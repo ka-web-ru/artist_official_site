@@ -1,0 +1,12 @@
+{
+    "name": "jugger-php/jugger-ui",
+    "autoload": {
+        "psr-4": {
+            "jugger\\ui\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.0.9",
+        "jugger-php/jugger-base": "^1"
+    }
+}

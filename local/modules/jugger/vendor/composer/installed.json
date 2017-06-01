@@ -1,0 +1,352 @@
+[
+    {
+        "name": "jugger-php/jugger-base",
+        "version": "1.1.0",
+        "version_normalized": "1.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/jugger-php/jugger-base.git",
+            "reference": "bd0f022909efec39e5c05dc64ee194978a2f71dc"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/jugger-php/jugger-base/zipball/bd0f022909efec39e5c05dc64ee194978a2f71dc",
+            "reference": "bd0f022909efec39e5c05dc64ee194978a2f71dc",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^7.0.9"
+        },
+        "time": "2017-01-28T16:07:57+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "jugger\\base\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/"
+    },
+    {
+        "name": "jugger-php/jugger-ui",
+        "version": "1.1.0",
+        "version_normalized": "1.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/jugger-php/jugger-ui.git",
+            "reference": "a4e6bb3758985be609ce51c97058f686e5d24be7"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/jugger-php/jugger-ui/zipball/a4e6bb3758985be609ce51c97058f686e5d24be7",
+            "reference": "a4e6bb3758985be609ce51c97058f686e5d24be7",
+            "shasum": ""
+        },
+        "require": {
+            "jugger-php/jugger-base": "^1",
+            "php": "^7.0.9"
+        },
+        "time": "2017-02-11T14:46:10+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "jugger\\ui\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/"
+    },
+    {
+        "name": "jugger-php/jugger-html",
+        "version": "1.0.1",
+        "version_normalized": "1.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/jugger-php/jugger-html.git",
+            "reference": "39423f4585513f0cf1f8215db670548af2c0de30"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/jugger-php/jugger-html/zipball/39423f4585513f0cf1f8215db670548af2c0de30",
+            "reference": "39423f4585513f0cf1f8215db670548af2c0de30",
+            "shasum": ""
+        },
+        "require": {
+            "jugger-php/jugger-ui": "^1",
+            "php": "^7.0.9"
+        },
+        "time": "2017-02-21T19:31:44+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "jugger\\html\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/"
+    },
+    {
+        "name": "jugger-php/jugger-fontawesome",
+        "version": "1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/jugger-php/jugger-fontawesome.git",
+            "reference": "24a4123a07b80ed4250e235d0684123dd4572bb8"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/jugger-php/jugger-fontawesome/zipball/24a4123a07b80ed4250e235d0684123dd4572bb8",
+            "reference": "24a4123a07b80ed4250e235d0684123dd4572bb8",
+            "shasum": ""
+        },
+        "require": {
+            "jugger-php/jugger-html": "^1",
+            "php": "^7.0.9"
+        },
+        "time": "2017-02-22T18:13:00+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "jugger\\fontawesome\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/"
+    },
+    {
+        "name": "jugger-php/jugger-ds",
+        "version": "1.1.0",
+        "version_normalized": "1.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/jugger-php/jugger-ds.git",
+            "reference": "93fb46ab31bc5bc47a24a80741e8220a69f51fef"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/jugger-php/jugger-ds/zipball/93fb46ab31bc5bc47a24a80741e8220a69f51fef",
+            "reference": "93fb46ab31bc5bc47a24a80741e8220a69f51fef",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^7.0.9"
+        },
+        "time": "2017-02-11T14:56:46+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "jugger\\ds\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/"
+    },
+    {
+        "name": "jugger-php/jugger-bootstrap",
+        "version": "1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/jugger-php/jugger-bootstrap.git",
+            "reference": "d180b27376bbd4edb50828575506d2f2e894611b"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/jugger-php/jugger-bootstrap/zipball/d180b27376bbd4edb50828575506d2f2e894611b",
+            "reference": "d180b27376bbd4edb50828575506d2f2e894611b",
+            "shasum": ""
+        },
+        "require": {
+            "jugger-php/jugger-ds": "^1",
+            "jugger-php/jugger-html": "^1",
+            "jugger-php/jugger-ui": "^1",
+            "php": "^7.0.9"
+        },
+        "time": "2017-02-21T19:31:18+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "jugger\\bootstrap\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/"
+    },
+    {
+        "name": "jugger-php/jugger-model",
+        "version": "1.2.0",
+        "version_normalized": "1.2.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/jugger-php/jugger-model.git",
+            "reference": "dc2f842ca028984e32189f321e49594f64ec4475"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/jugger-php/jugger-model/zipball/dc2f842ca028984e32189f321e49594f64ec4475",
+            "reference": "dc2f842ca028984e32189f321e49594f64ec4475",
+            "shasum": ""
+        },
+        "require": {
+            "jugger-php/jugger-base": "^1",
+            "php": "^7.0.9"
+        },
+        "time": "2017-02-24T17:20:42+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "jugger\\model\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/"
+    },
+    {
+        "name": "jugger-php/jugger-form",
+        "version": "1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/jugger-php/jugger-form.git",
+            "reference": "b2ba640dd0ce72eb62aa3585b4668b37820c3df3"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/jugger-php/jugger-form/zipball/b2ba640dd0ce72eb62aa3585b4668b37820c3df3",
+            "reference": "b2ba640dd0ce72eb62aa3585b4668b37820c3df3",
+            "shasum": ""
+        },
+        "require": {
+            "jugger-php/jugger-html": "^1",
+            "jugger-php/jugger-model": "^1",
+            "php": "^7.0.9"
+        },
+        "time": "2017-02-07T18:34:39+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "jugger\\form\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/"
+    },
+    {
+        "name": "jugger-php/jugger-db",
+        "version": "1.0.2",
+        "version_normalized": "1.0.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/jugger-php/jugger-db.git",
+            "reference": "162455bb22626cebafe15117c65b365e883668ed"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/jugger-php/jugger-db/zipball/162455bb22626cebafe15117c65b365e883668ed",
+            "reference": "162455bb22626cebafe15117c65b365e883668ed",
+            "shasum": ""
+        },
+        "require": {
+            "jugger-php/jugger-base": "^1",
+            "php": "^7.0.9"
+        },
+        "time": "2017-01-28T10:16:46+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "jugger\\db\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/"
+    },
+    {
+        "name": "jugger-php/jugger-ar",
+        "version": "1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/jugger-php/jugger-ar.git",
+            "reference": "71d907774ee1c06874b3260190d726fd30d13cff"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/jugger-php/jugger-ar/zipball/71d907774ee1c06874b3260190d726fd30d13cff",
+            "reference": "71d907774ee1c06874b3260190d726fd30d13cff",
+            "shasum": ""
+        },
+        "require": {
+            "jugger-php/jugger-db": "^1",
+            "jugger-php/jugger-model": "^1",
+            "php": "^7.0.9"
+        },
+        "time": "2017-01-28T14:38:20+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "jugger\\ar\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/"
+    },
+    {
+        "name": "jugger-php/jugger-data",
+        "version": "1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/jugger-php/jugger-data.git",
+            "reference": "bdf36d75e04f797e7537c1522c848f7f87a7538d"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/jugger-php/jugger-data/zipball/bdf36d75e04f797e7537c1522c848f7f87a7538d",
+            "reference": "bdf36d75e04f797e7537c1522c848f7f87a7538d",
+            "shasum": ""
+        },
+        "require": {
+            "jugger-php/jugger-db": "^1",
+            "php": "^7.0.9"
+        },
+        "time": "2017-01-25T18:30:41+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "jugger\\data\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/"
+    },
+    {
+        "name": "jugger-php/jugger-di",
+        "version": "1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/jugger-php/jugger-di.git",
+            "reference": "123badb956b5ca3cac1611f59fa353566b2daa78"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/jugger-php/jugger-di/zipball/123badb956b5ca3cac1611f59fa353566b2daa78",
+            "reference": "123badb956b5ca3cac1611f59fa353566b2daa78",
+            "shasum": ""
+        },
+        "require": {
+            "jugger-php/jugger-base": "1.*",
+            "php": "^7.0.9"
+        },
+        "time": "2017-01-24T19:32:06+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "jugger\\di\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/"
+    }
+]

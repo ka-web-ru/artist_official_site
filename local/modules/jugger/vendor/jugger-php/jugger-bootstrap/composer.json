@@ -1,0 +1,14 @@
+{
+    "name": "jugger-php/jugger-bootstrap",
+    "autoload": {
+        "psr-4": {
+            "jugger\\bootstrap\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.0.9",
+        "jugger-php/jugger-html": "^1",
+        "jugger-php/jugger-ui": "^1",
+        "jugger-php/jugger-ds": "^1"
+    }
+}

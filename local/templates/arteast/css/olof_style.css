@@ -1,0 +1,60 @@
+/* общее */
+
+a.link-invisible,
+a.link-invisible:hover,
+a.link-invisible:active,
+a.link-invisible:visited {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+/* шапка */
+
+.phone a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.phone a:hover {
+	text-decoration: underline;
+}
+
+
+
+.portfolio-item__container a {
+	color: #333;
+	text-decoration: none;
+	border-bottom: 1px solid #f27e33;
+	transition: all .2s;
+}
+
+.portfolio-item__container a:hover {
+	/*border-bottom-color: red;*/
+	color: #f27e33;
+}
+
+.portfolio-item__container img {
+	max-width: 100%;
+	height: auto;
+	/*display: block;
+	margin: auto;*/
+}
+
+.protfolio-item__text {
+	max-width: 700px;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	margin: auto;
+	display: block;
+}
+
+.portfolio-item-service_for_me__container {
+	background-color: #fafafa;
+	padding: 3rem 1rem;
+  margin-bottom: 1rem;
+}
+
+.portfolio-item-service_for_me__text {
+	text-align: center;
+	font-size: 1.5rem;
+}

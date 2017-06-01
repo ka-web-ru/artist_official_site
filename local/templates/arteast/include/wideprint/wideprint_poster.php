@@ -1,0 +1,1 @@
+<img src="/local/templates/arteast/images/printer.png">

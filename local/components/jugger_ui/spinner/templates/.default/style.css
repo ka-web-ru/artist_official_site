@@ -1,0 +1,22 @@
+.ui-spinner {
+    display: inline-block;
+    width: 150px;
+}
+.ui-spinner__minus {
+
+}
+.ui-spinner__plus {
+
+}
+.ui-spinner__input {
+    text-align: center;
+}
+
+.ui-spinner .btn,
+.ui-spinner .form-control {
+    line-height: 1;
+    padding: 0.5rem;
+}
+.ui-spinner .form-control {
+    padding: 0;
+}

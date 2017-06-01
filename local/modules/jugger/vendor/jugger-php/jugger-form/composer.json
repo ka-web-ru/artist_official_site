@@ -1,0 +1,13 @@
+{
+    "name": "jugger-php/jugger-form",
+    "autoload": {
+        "psr-4": {
+            "jugger\\form\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.0.9",
+        "jugger-php/jugger-model": "^1",
+        "jugger-php/jugger-html": "^1"
+    }
+}

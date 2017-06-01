@@ -1,0 +1,11 @@
+.sorter-view {
+    padding: 0.5rem 1rem;
+    margin-bottom: 1rem;
+}
+.sorter-view__item {
+    display: inline-block;
+    margin-right: 1rem;
+}
+.sorter-view__item.active {
+    color: #008dd2;
+}

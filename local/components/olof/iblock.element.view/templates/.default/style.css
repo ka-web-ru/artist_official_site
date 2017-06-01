@@ -1,0 +1,20 @@
+.project-detail-humans__container {
+  background-color: #fafafa;
+  padding: 1.5rem;
+}
+
+
+.project-detail-humans__title {
+  font-weight: bold;
+}
+
+.project-detail-humans__list  li{
+  list-style: none;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.project-detail-humans__feedback {
+	border-left: 3px solid red;
+	padding-left: 0.7rem;
+}

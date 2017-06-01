@@ -1,0 +1,10 @@
+.news-element-tags__href {
+	font-size: 1.3rem;
+	color: #f27e33;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.news-element-tags__href:hover {
+	border-bottom: 1px solid;
+}

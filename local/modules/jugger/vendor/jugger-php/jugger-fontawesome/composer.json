@@ -1,0 +1,12 @@
+{
+    "name": "jugger-php/jugger-fontawesome",
+    "autoload": {
+        "psr-4": {
+            "jugger\\fontawesome\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.0.9",
+        "jugger-php/jugger-html": "^1"
+    }
+}

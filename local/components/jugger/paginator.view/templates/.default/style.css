@@ -1,0 +1,29 @@
+.paginator-view {
+    text-align: center;
+    margin-top: 2rem;
+}
+.paginator-view__item {
+    display: inline-block;
+}
+.paginator-view__item a {
+    display: table-cell;
+    text-align: center;
+    width: 3rem;
+    height: 3rem;
+    vertical-align: middle;
+    border-radius: 50%;
+    font-size: 1.25rem;
+    line-height: 1;
+}
+.paginator-view__item a:hover {
+    background-color: #eaeaea;
+}
+.paginator-view__item.active a {
+    background-color: #95d0ec;
+    color: white;
+}
+.paginator-view__item-next a:hover,
+.paginator-view__item-first a:hover {
+    background-color: inherit;
+    /*text-decoration: underline;*/
+}

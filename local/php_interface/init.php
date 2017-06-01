@@ -1,0 +1,5 @@
+<?php
+
+CModule::includeModule('jugger');
+
+?>
