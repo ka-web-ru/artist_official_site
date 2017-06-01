@@ -402,7 +402,8 @@ $APPLICATION->SetTitle("Студия РА \"Артист\"");
 	</div>
  </section>
 </div>
- <!--Модальная форма начало--> <a href="#" class="overlay" id="openModal"></a>
+ <!--Модальная форма начало--> 
+<a href="#" class="overlay" id="openModal"></a>
 <div class="popup">
 	<form class="contact-form-modal">
 		 <!--<h2 class="contact-form-title">Изготовление рекламы</h2>-->
@@ -418,6 +419,7 @@ $APPLICATION->SetTitle("Студия РА \"Артист\"");
 	</form>
 	<div class="result-box">
 	</div>
- <a class="close" title="Закрыть" href="#close"></a>
+ <a class="studiya-modal-close" title="Закрыть" href="#studiya-modal-close"></a>
 </div>
-    <!--Модальная форма конец--><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
+<!--Модальная форма конец-->
+<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

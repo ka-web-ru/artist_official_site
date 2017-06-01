@@ -17,11 +17,9 @@ CJSCore::Init(array("fx"));
 		<?$APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . '/css/font-awesome.min.css');?>
 		<?$APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . '/css/bootstrap.css');?>
 		<?$APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . '/css/olof_style.css');?>
-		<?//$APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . '/css/lightcase.css');?>
-		<?$APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . '/swipebox/css/swipebox.css');?>
-		<?$APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH . '/js/jquery-3.1.1.min.js');?>
+		<?$APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . '/css/lightcase.css');?>
+		<?$APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH . '/js/jquery-2.2.0.min.js');?>
 		<?$APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH . '/js/jquery.events.touch.js');?>
-		<?$APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH . '/swipebox/js/jquery.swipebox.min.js');?>
 		<?$APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH . '/js/owl.carousel.js');?>
 		<?$APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH . '/js/jquery.maskedinput.min.js');?>
 		<?$APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH . '/js/lightcase.js');?>
@@ -59,8 +57,8 @@ CJSCore::Init(array("fx"));
 								); ?>
 							</div>
 							<span class="phone-mobile-view">
-								<p>+7 (3522) 23-23-23</p>
-								<p>ae@arteast.ru</p>
+								<p><a href="tel:88003502362">8 (800) 350-23-62</a></p>
+								<p><a href="mailto:ae@arteast.ru">ae@arteast.ru</a></p>
 							</span>
 							<a href='#' class="btn-mobile-menu">
 								<i class="fa fa-bars"></i>
@@ -81,7 +79,7 @@ CJSCore::Init(array("fx"));
 							<div class='head-call-box'>
 								<div class="call" onclick="main.CallUs()"><span>Обратный звонок</span></div>
 								<div class="phone">
-									<a href="callto:89630021303">8 (800) 350-23-62</a>,
+									<a href="tel:88003502362">8 (800) 350-23-62</a>,
 									<a href="mailto:ae@arteast.ru"?>ae@arteast.ru</a>
 								</div>
 								<div id="callUs" class="callUs">

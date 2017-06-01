@@ -9,12 +9,13 @@ a.link-invisible:visited {
 }
 
 /* шапка */
-
+.phone-mobile-view a,
 .phone a {
 	color: inherit;
 	text-decoration: none;
 }
 
+.phone-mobile-view a:hover,
 .phone a:hover {
 	text-decoration: underline;
 }

@@ -1,30 +1,39 @@
+@media (min-width: 481px) {
+
+	.project-item__container {
+	  width: 20%;
+	  float: left;
+	}
+
+	.project-item__container.s1 {
+		width: 20%;
+	}
+
+	.project-item__container.s2 {
+		width: 40%;
+	}
+
+	.project-item__container.s3 {
+		width: 60%;
+	}
+
+	.project-item__container.s4 {
+		width: 80%;
+	}
+
+	.project-item__container.s5 {
+		width: 100%;
+	}
+}
+
+
 .project-item__container {
   position: relative;
-  width: 20%;
   height: 500px;
-  float: left;
 	overflow: hidden;
 }
 
-.project-item__container.s1 {
-	width: 20%;
-}
 
-.project-item__container.s2 {
-	width: 40%;
-}
-
-.project-item__container.s3 {
-	width: 60%;
-}
-
-.project-item__container.s4 {
-	width: 80%;
-}
-
-.project-item__container.s5 {
-	width: 80%;
-}
 
 .project-item__background {
   position: absolute;

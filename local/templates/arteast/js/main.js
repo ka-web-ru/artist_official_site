@@ -141,7 +141,7 @@ jQuery(document).ready(function($){
 	}); */
 	
 	//форма обратной связи в модальном окне на странице студии
-    $(".close,.overlay").click(function(){
+    $(".studiya-modal-close,.overlay").click(function(){
         $('.popup').css('display','none');
         $('.result-box, .overlay').hide();
         //$(".btn-form-show").css('display','block');
@@ -159,7 +159,7 @@ jQuery(document).ready(function($){
         var n = String((($(window).width()-$('.contact-form-wrapper').width())/2)) + 'px';
         //console.log(n);
         $(".popup").animate({right: n}, 500);
-        $('.close').css('display','block');
+        $('.studiya-modal-close').css('display','block');
         //$(".btn-form-show").css('display','none');
     });
 	
@@ -201,7 +201,7 @@ jQuery(document).ready(function($){
                 if ($('#openModal').css('display') == 'none'){
                     $('.overlay').show();
                     $('.popup').css('display','block');
-                    $('.close').css('display','block');
+                    $('.studiya-modal-close').css('display','block');
                 }
 				if(result == ''){
 					$('.contact-form-modal').css('display','none');

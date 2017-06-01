@@ -3,7 +3,7 @@ abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, 
 b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary,
 time, mark, audio, video { padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;}
-body {line-height:1;} 
+body {line-height:1;}
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display:block;}
 nav ul {list-style:none;}
 blockquote, q {quotes:none;}
@@ -402,7 +402,7 @@ footer > div > div:nth-child(2) {float:right;}
 	cursor: pointer;
 	z-index: 2;
 }
-.wideprint-slider-prev{  
+.wideprint-slider-prev{
     left: 15%;
     background: url("./images/wideprint_slider_left_arrow.png");
     background-size: cover;
@@ -962,7 +962,7 @@ footer > div > div:nth-child(2) {float:right;}
   position: fixed;
   cursor: default;
 }
-.close {
+.studiya-modal-close {
   top: -20px;
   right: -15px;
   width: 20px;
@@ -973,13 +973,13 @@ footer > div > div:nth-child(2) {float:right;}
   text-decoration: none;
   display: none;
 }
-.close:before {
+.studiya-modal-close:before {
   color: rgba(255, 255, 255, 0.9);
   content: "x";
   text-shadow: 0 -1px rgba(0, 0, 0, 0.9);
   font-size: 17px;
 }
-.close:hover:before {
+.studiya-modal-close:hover:before {
   color: #fff;
 }
 .home-text {
@@ -1869,7 +1869,7 @@ footer > div > div:nth-child(2) {float:right;}
 	.wideprint-slider-nav{
 	display:none;
 	}
-	
+
 	/*---------------------
 	широкоформатная печать (окончание)
 	----------------------*/

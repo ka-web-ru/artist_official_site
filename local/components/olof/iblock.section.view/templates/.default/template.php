@@ -63,6 +63,11 @@ array_unshift($sections, [
 			</ul>
 		</div>
 	</div>
+	<style media="screen">
+		.project-item__background img {
+			display: none;
+		}
+	</style>
 	<div class="project-items__container">
   <?php foreach ($elements as $element):
 		$file_size = CFile::GetFileArray($element['PREVIEW_PICTURE']);
@@ -75,7 +80,9 @@ array_unshift($sections, [
 	?>
   <a class="link-invisible" href="<?= $url ?>">
     <div class="project-item__container <?= 's' . $block_size ?> <?= $section_classes ?>">
-      <div class="project-item__background" style="background-image: url(<?= CFile::GetPath($element['PREVIEW_PICTURE']) ?>)"></div>
+      <div class="project-item__background" style="background-image: url(<?= CFile::GetPath($element['PREVIEW_PICTURE']) ?>)">
+      	<img src="<?= CFile::GetPath($element['PREVIEW_PICTURE']) ?>" alt="">
+      </div>
       <div class="project-item-name__container">
         <div class="project-item-name__text">
           <?= $element['NAME'] ?>
@@ -95,15 +102,15 @@ array_unshift($sections, [
 
 <script type="text/javascript">
 	$(function() {
-
+// return
 		var freewall_animate = true;
 
 		wall = new Freewall(".project-items__container");
 		wall.reset({
 			selector: '.project-item__container',
 			animate: freewall_animate,
-			cellW: 360,
-			cellH: 500,
+			cellW: 360 / 2,
+			cellH: 500 / 2,
 			fixSize: 0,
 			gutterY: 0,
 			gutterX: 0,
